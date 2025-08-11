@@ -1,7 +1,7 @@
 {
   "name": "multiaudio",
   "version": "0.0.1",
-  "description": "capacitor plugin audio",
+  "description": "Audio nativo",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -15,7 +15,7 @@
     "Package.swift",
     "Multiaudio.podspec"
   ],
-  "author": "ccamavi",
+  "author": "CCAMAVI",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -39,7 +39,7 @@
     "eslint": "eslint . --ext ts",
     "prettier": "prettier \"**/*.{css,html,ts,js,java}\" --plugin=prettier-plugin-java",
     "swiftlint": "node-swiftlint",
-    "docgen": "docgen --api multiAudioPlugin --output-readme README.md --output-json dist/docs.json",
+    "docgen": "docgen --api MultiAudioPlugin --output-readme README.md --output-json dist/docs.json",
     "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.mjs",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",

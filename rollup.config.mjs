@@ -4,7 +4,7 @@ export default {
     {
       file: 'dist/plugin.js',
       format: 'iife',
-      name: 'capacitormultiAudio',
+      name: 'capacitorMultiAudio',
       globals: {
         '@capacitor/core': 'capacitorExports',
       },

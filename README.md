@@ -1,6 +1,6 @@
 # multiaudio
 
-capacitor plugin audio
+Audio nativo
 
 ## Install
 

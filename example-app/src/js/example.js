@@ -1,6 +1,6 @@
-import { multiAudio } from 'multiaudio';
+import { MultiAudio } from 'multiaudio';
 
 window.testEcho = () => {
     const inputValue = document.getElementById("echoInput").value;
-    multiAudio.echo({ value: inputValue })
+    MultiAudio.echo({ value: inputValue })
 }

@@ -6,6 +6,7 @@ export interface MultiAudioTrack {
 }
 
 export interface MultiAudioPlugin {
+  echo(options: { value: string }): Promise<{ value: string }>;
   loadTracks(tracks: MultiAudioTrack[]): Promise<void>;
   play(): Promise<void>;
   pause(): Promise<void>;

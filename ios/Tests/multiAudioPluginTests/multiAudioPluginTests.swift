@@ -1,12 +1,12 @@
 import XCTest
-@testable import multiAudioPlugin
+@testable import MultiAudioPlugin
 
-class multiAudioTests: XCTestCase {
+class MultiAudioTests: XCTestCase {
     func testEcho() {
         // This is an example of a functional test case for a plugin.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
 
-        let implementation = multiAudio()
+        let implementation = MultiAudio()
         let value = "Hello, World!"
         let result = implementation.echo(value)
 
